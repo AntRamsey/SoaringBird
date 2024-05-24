@@ -1,13 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.site-layout-content {
+  background: #fff;
+  padding: 24px;
+  min-height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.carousel-container {
+  width: 100%;
+  max-width: 800px; /* You can adjust this value as needed */
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  background-color: black !important;
+}
+
+.header .ant-menu {
+  background-color: black !important;
+}
+
+.header .ant-menu-item, .header .ant-menu-item a {
+  color: white !important;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
 }
