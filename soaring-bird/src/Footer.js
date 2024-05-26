@@ -6,7 +6,7 @@ const { Footer } = Layout;
 const AppFooter = () => {
   return (
     <Footer className="footer">
-      Gallery ©2024 Created by YourName
+      Gallery ©2024
     </Footer>
   );
 };

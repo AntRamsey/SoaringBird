@@ -1,10 +1,11 @@
 import React from 'react';
 import { Layout } from 'antd';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import AppHeader from './Header';
 import ImgCarousel from './ImgCarousel';
 import AppFooter from './Footer';
 import Artists from './Artists';
+import ArtistPage from './ArtistPage';
 import './index.css';
 
 const { Content } = Layout;
@@ -18,6 +19,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<ImgCarousel />} />
             <Route path="/artists" element={<Artists />} />
+            <Route path="/artists/:artistName" element={<ArtistPage />} />
           </Routes>
         </Content>
         <AppFooter />

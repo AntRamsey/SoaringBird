@@ -41,6 +41,18 @@ html, body {
   margin: 0 auto;
 }
 
+/* Carousel modal styles */
+.modal-artist-link {
+  color: rgb(245, 128, 229);
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 16px;
+}
+
+.modal-artist-link:hover {
+  text-decoration: underline;
+}
+
 /* Header styles */
 .header {
   width: 100%;
@@ -66,7 +78,6 @@ html, body {
 /* Artists page styles */
 .artists-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
   padding: 24px;
   width: 100%;
@@ -81,10 +92,69 @@ html, body {
   padding: 16px;
   text-align: center;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.artist-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .artist-thumbnail {
-  width: 100%;
+  max-height: 200px; /* Adjust as needed */
+  width: auto;
+  margin-bottom: auto;
+}
+
+.artist-link {
+  margin-top: 16px; /* Add space between the image and the link */
+}
+
+/* Responsive grid for artists */
+@media screen and (min-width: 1201px) {
+  .artists-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .artists-container {
+    grid-template-columns: repeat(3, 1fr); /* Show 3 artists per row on smaller screens */
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .artists-container {
+    grid-template-columns: repeat(2, 1fr); /* Show 2 artists per row on even smaller screens */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .artists-container {
+    grid-template-columns: 1fr; /* Show 1 artist per row on mobile screens */
+  }
+}
+
+/* Artist page styles */
+.artist-page {
+  text-align: center;
+  color: white;
+  padding: 24px;
+  background-color: #292929;
+}
+
+.artist-page h2 {
+  color: white;
+  margin-bottom: 24px;
+}
+
+.artist-page img {
+  width: 80%;
+  max-width: 600px; /* Adjust as necessary */
   height: auto;
-  border-radius: 8px;
+  margin-bottom: 24px;
 }

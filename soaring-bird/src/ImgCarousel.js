@@ -10,14 +10,14 @@ const contentStyle = {
 };
 
 const images = [
-  require('./images/alley.jpg'),
-  require('./images/antlers.jpg'),
-  require('./images/diamonds.jpg'),
-  require('./images/fierce.jpg'),
-  require('./images/flower.jpg'),
-  require('./images/mother.jpg'),
-  require('./images/reaching.jpg'),
-  require('./images/snakes.jpg'),
+  { src: require('./images/alley.jpg'), artist: 'Artist 1' },
+  { src: require('./images/antlers.jpg'), artist: 'Artist 2' },
+  { src: require('./images/diamonds.jpg'), artist: 'Artist 3' },
+  { src: require('./images/fierce.jpg'), artist: 'Artist 4' },
+  { src: require('./images/flower.jpg'), artist: 'Artist 5' },
+  { src: require('./images/mother.jpg'), artist: 'Artist 6' },
+  { src: require('./images/reaching.jpg'), artist: 'Artist 7' },
+  { src: require('./images/snakes.jpg'), artist: 'Artist 8' },
 ];
 
 const ImgCarousel = () => {
@@ -31,11 +31,11 @@ const ImgCarousel = () => {
 
   return (
     <>
-      <div className='carousel-container'>
-        <Carousel arrows infinite={true}>
-          {images.map((src, index) => (
-            <div key={index} onClick={() => handleImageClick(src)}>
-              <img src={src} alt={`Slide ${index + 1}`} style={contentStyle} />
+      <div className="carousel-container">
+        <Carousel autoplay arrows infinite={true}>
+          {images.map((image, index) => (
+            <div key={index} onClick={() => handleImageClick(image)}>
+              <img src={image.src} alt={`Slide ${index + 1}`} style={contentStyle} />
             </div>
           ))}
         </Carousel>
@@ -44,8 +44,8 @@ const ImgCarousel = () => {
         <Modal
           visible={modalVisible}
           onCancel={() => setModalVisible(false)}
-          image={selectedImage}
-          text="Your text here" // Replace with your desired text
+          image={selectedImage.src}
+          artist={selectedImage.artist}
         />
       )}
     </>
