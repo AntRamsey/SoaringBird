@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SoaringBird/static/css/main.774f8f76.css",
-    "main.js": "/SoaringBird/static/js/main.43753d36.js",
+    "main.js": "/SoaringBird/static/js/main.dfe2a03a.js",
     "static/js/453.683fc069.chunk.js": "/SoaringBird/static/js/453.683fc069.chunk.js",
     "static/media/diamonds.jpg": "/SoaringBird/static/media/diamonds.5b7b73a6148a92cc8cde.jpg",
     "static/media/reaching.jpg": "/SoaringBird/static/media/reaching.dbc98c85ec0c472458a4.jpg",
@@ -13,11 +13,11 @@
     "static/media/snakes.jpg": "/SoaringBird/static/media/snakes.fb17f30ecc1c3bddd2b7.jpg",
     "index.html": "/SoaringBird/index.html",
     "main.774f8f76.css.map": "/SoaringBird/static/css/main.774f8f76.css.map",
-    "main.43753d36.js.map": "/SoaringBird/static/js/main.43753d36.js.map",
+    "main.dfe2a03a.js.map": "/SoaringBird/static/js/main.dfe2a03a.js.map",
     "453.683fc069.chunk.js.map": "/SoaringBird/static/js/453.683fc069.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.774f8f76.css",
-    "static/js/main.43753d36.js"
+    "static/js/main.dfe2a03a.js"
   ]
 }
