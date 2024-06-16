@@ -1,5 +1,22 @@
 const ArtistList = [
     { 
+        name: 'Troy Gosz',
+        images: [
+            require('./images/TG1.jpg') ,
+            require('./images/TG2.jpg') ,
+            require('./images/TG3.jpg') ,
+            require('./images/TG4.jpg') ,
+            require('./images/TG5.jpg') ,
+            require('./images/TG6.jpg') ,
+            require('./images/TG7.jpg') ,
+            require('./images/TG8.jpg') ,
+            require('./images/TG9.jpg') ,
+            require('./images/TG10.jpg') ,
+            require('./images/TG11.jpg') ,
+            require('./images/TG12.jpg') ,
+        ]
+    },
+    { 
         name: 'Artist 1',
         images: [
             require('./images/alley.jpg') ,
@@ -79,6 +96,7 @@ const ArtistList = [
             require('./images/snakes.jpg') ,
         ]
     },
+    
   ];
   
   export default ArtistList;

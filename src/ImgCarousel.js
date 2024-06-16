@@ -11,9 +11,9 @@ const contentStyle = {
 
 const images = [
   { src: require('./images/alley.jpg'), artist: 'Artist 1' },
-  { src: require('./images/antlers.jpg'), artist: 'Artist 2' },
-  { src: require('./images/diamonds.jpg'), artist: 'Artist 3' },
-  { src: require('./images/fierce.jpg'), artist: 'Artist 4' },
+  { src: require('./images/TG1.jpg'), artist: 'Troy Gosz' },
+  { src: require('./images/TG4.jpg'), artist: 'Troy Gosz' },
+  { src: require('./images/TG8.jpg'), artist: 'Troy Gosz' },
   { src: require('./images/flower.jpg'), artist: 'Artist 5' },
   { src: require('./images/mother.jpg'), artist: 'Artist 6' },
   { src: require('./images/reaching.jpg'), artist: 'Artist 7' },

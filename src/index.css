@@ -81,7 +81,6 @@ html, body {
   gap: 24px;
   padding: 24px;
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   background-color: black;
 }
@@ -116,24 +115,24 @@ html, body {
 }
 
 /* Responsive grid for artists */
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1401px) {
   .artists-container {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   .artists-container {
     grid-template-columns: repeat(3, 1fr); /* Show 3 artists per row on smaller screens */
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .artists-container {
     grid-template-columns: repeat(2, 1fr); /* Show 2 artists per row on even smaller screens */
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .artists-container {
     grid-template-columns: 1fr; /* Show 1 artist per row on mobile screens */
   }
@@ -155,6 +154,7 @@ html, body {
 .artist-page img {
   width: 80%;
   max-width: 600px; /* Adjust as necessary */
+  max-height: 500px;
   height: auto;
   margin-bottom: 24px;
 }
