@@ -141,20 +141,46 @@ html, body {
 /* Artist page styles */
 .artist-page {
   text-align: center;
-  color: white;
+  color: rgb(255, 116, 220);
   padding: 24px;
   background-color: #292929;
 }
 
 .artist-page h2 {
-  color: white;
+  color: rgb(255, 116, 220);
   margin-bottom: 24px;
 }
 
-.artist-page img {
-  width: 80%;
-  max-width: 600px; /* Adjust as necessary */
-  max-height: 500px;
+.artist-images-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  justify-items: center;
+}
+
+.artist-images-grid img {
+  width: 100%;
+  max-width: 100%;
   height: auto;
-  margin-bottom: 24px;
+  object-fit: cover; /* Ensures images are not stretched */
+  border-radius: 8px; /* Optional: Add border radius for a better look */
+}
+
+/* Responsive adjustments */
+@media (min-width: 600px) {
+  .artist-images-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .artist-images-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .artist-images-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

@@ -5,12 +5,12 @@ import ArtistList from './ArtistList';
 
 const ArtistPage = () => {
   const { artistName } = useParams();
-  console.log('artistName from useParams:', artistName); // Debugging line
+  console.log('artistName from useParams:', artistName);
 
   const artist = ArtistList.find(
     (artist) => artist.name.toLowerCase().replace(/\s+/g, '-') === artistName
   );
-  console.log('Matched artist:', artist); // Debugging line
+  console.log('Matched artist:', artist);
 
   if (!artist) {
     return <div>Artist not found</div>;
@@ -19,9 +19,9 @@ const ArtistPage = () => {
   return (
     <div className="artist-page">
       <h2>{artist.name}</h2>
-      <div className="image-grid">
-        {artist.images.map((image, index) => (
-          <img key={index} src={image} alt={`${artist.name} work ${index + 1}`} />
+      <div className="artist-images-grid">
+        {artist.images.map((src, index) => (
+          <img key={index} src={src} alt={`${artist.name} work ${index + 1}`} />
         ))}
       </div>
     </div>
