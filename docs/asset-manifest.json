@@ -1,8 +1,16 @@
 {
   "files": {
-    "main.css": "/SoaringBird/static/css/main.98aaee0a.css",
-    "main.js": "/SoaringBird/static/js/main.1b2a9570.js",
+    "main.css": "/SoaringBird/static/css/main.81aaede5.css",
+    "main.js": "/SoaringBird/static/js/main.92c3164f.js",
     "static/js/453.683fc069.chunk.js": "/SoaringBird/static/js/453.683fc069.chunk.js",
+    "static/media/JMG6.png": "/SoaringBird/static/media/JMG6.33d1b6f4f19d03cd168d.png",
+    "static/media/JMG8.png": "/SoaringBird/static/media/JMG8.f1d389cf9cd605dc94d5.png",
+    "static/media/JMG7.png": "/SoaringBird/static/media/JMG7.b049e52f9d4f4cb2557e.png",
+    "static/media/JMG2.png": "/SoaringBird/static/media/JMG2.d236786f1f5b819eb686.png",
+    "static/media/JMG1.png": "/SoaringBird/static/media/JMG1.ba7a17ed6bfd1e970235.png",
+    "static/media/JMG5.png": "/SoaringBird/static/media/JMG5.8d71445d9f303d2064e1.png",
+    "static/media/JMG4.png": "/SoaringBird/static/media/JMG4.6e08ec2b838196a71875.png",
+    "static/media/JMG3.png": "/SoaringBird/static/media/JMG3.72173f81978caf93fcc4.png",
     "static/media/TG4.jpg": "/SoaringBird/static/media/TG4.04a3621d5879eff3330b.jpg",
     "static/media/diamonds.jpg": "/SoaringBird/static/media/diamonds.5b7b73a6148a92cc8cde.jpg",
     "static/media/reaching.jpg": "/SoaringBird/static/media/reaching.dbc98c85ec0c472458a4.jpg",
@@ -24,12 +32,12 @@
     "static/media/TG6.jpg": "/SoaringBird/static/media/TG6.6220483d6cebd713aba5.jpg",
     "static/media/snakes.jpg": "/SoaringBird/static/media/snakes.fb17f30ecc1c3bddd2b7.jpg",
     "index.html": "/SoaringBird/index.html",
-    "main.98aaee0a.css.map": "/SoaringBird/static/css/main.98aaee0a.css.map",
-    "main.1b2a9570.js.map": "/SoaringBird/static/js/main.1b2a9570.js.map",
+    "main.81aaede5.css.map": "/SoaringBird/static/css/main.81aaede5.css.map",
+    "main.92c3164f.js.map": "/SoaringBird/static/js/main.92c3164f.js.map",
     "453.683fc069.chunk.js.map": "/SoaringBird/static/js/453.683fc069.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98aaee0a.css",
-    "static/js/main.1b2a9570.js"
+    "static/css/main.81aaede5.css",
+    "static/js/main.92c3164f.js"
   ]
 }
