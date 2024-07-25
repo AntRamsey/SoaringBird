@@ -166,6 +166,30 @@ html, body {
   border-radius: 8px; /* Optional: Add border radius for a better look */
 }
 
+/* Contact info styles */
+.contact-info {
+  margin-top: 24px;
+  text-align: center;
+  color: rgb(255, 116, 220);
+}
+
+.contact-info h1 {
+  margin-bottom: 16px;
+}
+
+.contact-info p {
+  margin: 8px 0;
+}
+
+.contact-info a {
+  color: rgb(245, 128, 229);
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
 /* Responsive adjustments */
 @media (min-width: 600px) {
   .artist-images-grid {

@@ -14,9 +14,9 @@ const images = [
   { src: require('./images/TG1.jpg'), artist: 'Troy Gosz' },
   { src: require('./images/TG4.jpg'), artist: 'Troy Gosz' },
   { src: require('./images/TG8.jpg'), artist: 'Troy Gosz' },
-  { src: require('./images/flower.jpg'), artist: 'Artist 5' },
-  { src: require('./images/mother.jpg'), artist: 'Artist 6' },
-  { src: require('./images/reaching.jpg'), artist: 'Artist 7' },
+  { src: require('./images/JMG1.png'), artist: 'Jessica M. Gutiérrez' },
+  { src: require('./images/JMG3.png'), artist: 'Jessica M. Gutiérrez' },
+  { src: require('./images/JMG7.png'), artist: 'Jessica M. Gutiérrez' },
   { src: require('./images/snakes.jpg'), artist: 'Artist 8' },
 ];
 
