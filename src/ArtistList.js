@@ -32,10 +32,10 @@ const ArtistList = [
             require('./images/TG12.jpg'),
         ],
         contact: [
-            'troy@example.com',
+            '',
         ]
     },
-    { 
+    /*{ 
         name: 'Artist 1',
         images: [
             require('./images/alley.jpg'),
@@ -139,7 +139,7 @@ const ArtistList = [
             'artist8@example.com',
         ]
     },
-    
+    */
   ];
   
   export default ArtistList;

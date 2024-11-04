@@ -10,14 +10,14 @@ const contentStyle = {
 };
 
 const images = [
-  { src: require('./images/alley.jpg'), artist: 'Artist 1' },
+  { src: require('./images/JMG5.png'), artist: 'Jessica M. Gutiérrez' },
   { src: require('./images/TG1.jpg'), artist: 'Troy Gosz' },
   { src: require('./images/TG4.jpg'), artist: 'Troy Gosz' },
   { src: require('./images/TG8.jpg'), artist: 'Troy Gosz' },
   { src: require('./images/JMG1.png'), artist: 'Jessica M. Gutiérrez' },
   { src: require('./images/JMG3.png'), artist: 'Jessica M. Gutiérrez' },
   { src: require('./images/JMG7.png'), artist: 'Jessica M. Gutiérrez' },
-  { src: require('./images/snakes.jpg'), artist: 'Artist 8' },
+  { src: require('./images/TG3.jpg'), artist: 'Troy Gosz' },
 ];
 
 const ImgCarousel = () => {
